@@ -1,1 +1,20 @@
-<p>quote-square works!</p>
+<div>
+    <div>
+        <fa-icon [icon]="faQuoteLeft"></fa-icon>
+        <!-- quote value -->
+        {{quote.quote}}
+    </div>
+    <div>
+        <!-- author of quote -->
+        - {{quote.author}}
+    </div>
+    <div>
+        <div>
+            <fa-icon [icon]="faTwitter"></fa-icon>
+            <fa-icon [icon]="faFacebook"></fa-icon>
+        </div>
+        <div>
+            <button>New Quote</button>
+        </div>
+    </div>
+</div>
