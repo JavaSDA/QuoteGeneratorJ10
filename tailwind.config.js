@@ -12,7 +12,14 @@ module.exports = {
     },
     darkMode: false, // or 'media' or 'class'
     theme: {
-      extend: {},
+      extend: {
+        padding: {
+          '3.125': '3.125rem'
+        },
+        width: {
+          '28.125': '28.125rem'
+        }
+      },
       fontFamily: {
         'sans': ['Raleway', 'sans-serif']
       }
